@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: 12vw;
+  margin-top: 20px;
+}
+
+
+.navlinks {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.howitworks {
+  margin: 0px 15px;
+}
+
+.hover{
+    font-size: 13px;
+    text-decoration: none;
+    color: #3e3e3e;
+}
+.button1:hover {
+  background-color: rgb(254, 132, 2);
+}
+
+.hover:hover {
+  color: rgb(254, 132, 2);
+}
+
+.signbut{
+    text-decoration: none;
+  color: #fff;
+}
+
+.menu-toggle{
+  display: none;
+}
+
+.button1 {
+  box-sizing: content-box;
+  background-color: rgb(81, 108, 240);
+  border-color: rgb(81, 108, 240);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  contain-intrinsic-inline-size: 30px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.button1 {
+  width: 140px;
+  height: 27px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+
+  .howitworks{
+  /* margin-right:27vw; */
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+  .navlinks {
+  position: absolute;
+  top: calc(100% + 0px); /* Position it below the nav button with a margin */
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #ff8401;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  margin-top: 0px;
+  display: none;
+}
+
+.hover{
+  color: white;
+}
+
+.home{
+  /* margin-right:40vw; */
+}
+
+.button1{
+ font-size:13px ;
+  padding: 0px;
+  background-color: #ff8401;
+  margin-right: vw;
+  /* margin-top: 10px; */
+  width: 80px;
+  /* padding-top: 3px; */
+}
+.button1 .signbut{
+  font-size: 12px;
+}
+.button1 .signbut:hover{
+  color: #ff8401;
+}
+
+
+.logo{
+width:150px;
+  margin-top: 10px;
+}
+
+  .navlinks.active {
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+.outerwrapper.nav {
+  position: relative; /* Add position relative to the nav */
+}
+
+}

@@ -1,0 +1,172 @@
+*{
+  max-width: 100%;
+}
+
+.Home-wrapper{
+  padding-bottom: 40px;
+  text-decoration: none!important;
+}
+
+.Askquestion {
+  box-sizing: content-box;
+  background-color:rgb(81,108,240);
+  border-color: rgb(81,108,240);
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  contain-intrinsic-inline-size: 30px;
+  border-radius: 3px;
+  height: 27px;
+}
+
+.ask-Button{
+  width: 50%;
+  padding: 10px 0;
+}
+
+.welcomesection{
+    display:flex;
+    flex-direction: inline;
+    max-width: 100%;
+    padding: 10px 20px;
+    padding-top: 30px;
+    margin: 0 70px;
+    justify-items: center;
+}
+
+.username-wrapper{
+  width: 50%;
+    padding: 10px 0;
+  padding-right:20px;
+  text-align: right;
+}
+
+.Askquestion:hover{
+  background-color:rgb(254, 132, 2);
+}
+
+.welcomeuser{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #585757;
+}
+
+.Questions-Wrapper{
+  font-weight: bold;
+  font-size: 19px;
+  margin: 0px 70px 0px;
+  padding:10px 20px;
+}
+
+.question{
+  padding-bottom: 10px;
+  max-width: 100%;
+  border-bottom: 1.32px solid #d8d1d1;
+}
+
+.users-question{
+  border-bottom: 1.32px solid #d8d1d1;
+  margin-top: 10px ;
+  cursor: pointer;
+  padding:10px 0;
+}
+
+.the-question{
+display: flex;
+flex-direction: inline;
+font-size: 14px;
+font-weight:bold;
+color: #4a4a4a;
+max-width: 100%;
+}
+
+.question-title-wrapper {
+margin-top: 30px;
+margin-left: 40px;
+width: 100%;
+text-decoration: none !important;
+}
+
+.user-icon{
+  width: 50px;
+  opacity: 0.4;
+}
+
+.arrow-icon{
+  padding-top: 27px;
+  padding-left:18px;
+}
+
+.arrow-icon::before{
+  font-family: 'Font Awesome 5 Free';
+  content: '\f105';
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.users-question Link .text-decoration-none{
+  text-decoration:dotted;
+}
+
+:any-link{
+text-decoration: none;
+}
+
+.usersname{
+color: #4a4a4a;
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 5px;
+margin-left:5px;
+margin-top: 10px;
+  text-decoration: none;
+}
+
+@media(max-width:700px){
+     .welcomesection{
+      margin: 0px 3px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+     }
+
+     .Askquestion{
+      width: 110px;
+      font-size: 15px;
+      height:40px ;
+      margin-bottom: 0px;
+     }
+
+.Questions-Wrapper{
+  margin: 10px 3px;
+}
+
+.welcomeuser{
+  padding-top: 20px;
+  font-size: 4.5vw;
+}
+.question-title-wrapper{
+  font-size: 15px;
+}
+
+.arrow-icon{
+  padding-top: 32px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

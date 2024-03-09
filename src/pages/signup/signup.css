@@ -1,0 +1,311 @@
+.section1 {
+  display: flex;
+  padding: 8vw 0px 10vw;
+  background-color: #f8f8f8;
+  background-image: url("../signup/bg-svg-f.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.internalsection {
+  background-color: rgba(251, 252, 252);
+   margin:0 10px 0px 80px;
+   padding: 40px;
+padding-top: 60px;
+  width: 50%;
+  height: 550px;
+  border-radius: 7px;
+  text-align: center;
+  box-sizing: border-box;
+    /* max-width: 100%; */
+  box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1),
+    /* Right shadow */ -5px 0 20px rgba(0, 0, 0, 0.1),
+    /* Left shadow */ 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.aboutInternal{
+  height: 800px;
+}
+
+.aboutTitle{
+  font-size: 17px;
+}
+
+.paragraph .p{
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+
+.About {
+  padding-top: 30px;
+  width: 50%;
+   margin:0 80px 0px 10px;
+}
+
+
+.warning-message {
+  color: red;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.input{
+  width: 100%;
+}
+
+.internalsection p {
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.join {
+ text-align: center;
+  color: rgb(45,56,94);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.FLname {
+  display: flex;
+  justify-content:space-between;
+  margin: 0px;
+}
+
+.input-wrapper{
+display:flex;
+  flex-direction: column;
+}
+
+.name-input {
+   height: 40px;
+  border: 0.8px solid #d8d2d2;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  outline: none;
+}
+
+
+
+.Fname{
+  width: 50%;
+  margin-right: 1vw;
+}
+
+
+.Lname{
+  width: 50%;
+  margin-left: 1vw;
+}
+
+
+.input {
+  max-width: 100%;
+  height: 40px;
+  border: 0.8px solid #d8d2d2;
+  border-radius: 3px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+
+input:focus {
+  border-color: #d8d2d2; /* Set the border color to the same color as the default border */
+}
+
+
+input::placeholder {
+  color: #969292;
+
+
+}
+
+.toggle-password {
+  width: 5px;
+ max-width: 100%;
+  right: 500px;
+  top: 100%;
+  transform: translateY(-200%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-left: 20vw;
+  font-size: 18px;
+  color: #888;
+}
+
+.hide-icon,.view-icon{
+  opacity: 0.6;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+   background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.haveaccount{
+    color:rgb(254, 132, 2);
+    font-size: 13px;
+}
+
+.footlinks {
+  color: rgb(254, 132, 2);
+}
+
+.internalsection p {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.sign {
+  color: rgb(254, 132, 2);
+  text-decoration: underline;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.agree {
+  margin: 8px 0 20px;
+  background-color: rgb(81, 108, 240);
+  width: 26vw;
+  height: 36px;
+  font-size: 15px;
+
+}
+.agree:hover {
+  background-color: rgb(254, 132, 2);
+}
+
+.internalsection .link {
+  color: rgb(254, 132, 2);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+
+
+.internalsection p {
+  font-size: 15px;
+  color: #4b456f;
+}
+
+.aboutInternal {
+  height: 300px;
+}
+
+.About .p1 {
+  color: rgb(254, 132, 2);
+  margin-top: 50px;
+  font-size: 12px;
+}
+.About .button a {
+    text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+.About .aboutTitle {
+  font-size: 30px;
+  color: #4b456f;
+  line-height: 52px;
+  font-weight: 600;
+}
+
+.About .paragraph p {
+  margin-bottom: 20px;
+  color: #4b456f;
+  font-size: 10px;
+}
+
+button {
+  box-sizing: content-box;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  contain-intrinsic-inline-size: 30px;
+  border-radius: 3px;
+  font-size: 11px;
+  width: 140px;
+  height: 25px;
+  background-color: rgb(254, 132, 2);
+}
+
+
+@media (max-width: 700px) {
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  .FLname{
+    flex-direction: column;
+    width: 100%;
+  }
+  .input{
+    width: 100%;
+  }
+
+  .Fname{
+width: 100%;
+
+  }
+  .Lname{
+margin-left: 0px;
+width: 100%;
+  }
+
+  .sign{
+    margin-left: 20px;
+  }
+
+  .section1 {
+    padding-bottom: 70px;
+  background-image: url("../login/bg-svg-f.svg");
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .internalsection{
+  width: 80%;
+   height: 100%;
+   border-radius: 8px;
+margin: 0px;
+margin-left: 9vw;
+  }
+
+  .About{
+    padding: 0px;
+
+  }
+
+.FLname{
+  margin-right: 20px;
+}
+.Fname{
+  margin-right: 0;
+}
+.Lname{
+  margin-right: 0px;
+}
+  .About{
+   width:80%;
+margin-left: 9vw;
+  }
+
+  .button{
+    margin-top: 20px;
+  }
+
+  .About .paragraph p{
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+}

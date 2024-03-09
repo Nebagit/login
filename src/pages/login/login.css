@@ -1,0 +1,210 @@
+.loginsection {
+  display: flex;
+   background-color: #f8f8f8;
+  padding: 8vw 0px 10vw;
+  background-image: url("../login/bg-svg-f.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.logindiv1 {
+  width: 50%;
+  background-color: rgb(251, 252, 252);
+  height: 500px;
+  padding: 40px;
+  padding-top: 60px;
+  border-radius: 8px;
+  margin:0 10px 0px 80px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1),
+    /* Right shadow */ -5px 0 20px rgba(0, 0, 0, 0.1),
+    /* Left shadow */ 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-internal{
+  padding-top:30px;
+}
+
+.login {
+text-align: center;
+  color: rgb(45,56,94);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400px;
+}
+
+.Aboutt {
+  padding-top: 30px;
+  width: 50%;
+  height: 300px;
+  margin:0 80px 0px 10px;
+}
+
+.Aboutt .p1 {
+  color: rgb(254, 132, 2);
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.Aboutt .button a {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+
+.login-aboutTitle {
+ font-size: 30px;
+  color: #4b456f;
+  line-height: 52px;
+  font-weight: 600;
+}
+
+.Aboutt .paragraph p {
+  margin-bottom: 20px;
+  color: #4b456f;
+  font-size: 10px;
+}
+
+.logindiv1 p {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.login-input {
+  width:100%;
+  height: 32px;
+  margin: 8px 0px;
+  border: 1.1px solid #c5bfbf;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 15px;
+}
+
+.passwordInput::placeholder{
+padding-right: 10px;
+}
+
+login-input:focus {
+  border: 1.1px solid #c5bfbf;
+  /* Set the border color to the same color as the default border */
+}
+
+.login-input::placeholder {
+  color: #969292;
+  margin: 0 10px;
+}
+
+.toggle-password {
+  width: 10px;
+ max-width: 100%;
+  right: 500px;
+  top: 100%;
+  transform: translateY(-200%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding-left: 20vw;
+  font-size: 18px;
+  color: #888;
+}
+
+.hide-icon,.view-icon{
+  opacity: 0.6;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+   background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.logindiv1 p {
+  margin-bottom: 15px;
+}
+
+
+.submit {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.submit:hover {
+  background-color: rgb(81, 108, 240);
+}
+
+.link {
+  color: rgb(254, 132, 2);
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.signin {
+  color: white;
+  font-weight: normal;
+}
+
+button {
+  box-sizing: content-box;
+  background-color: rgb(81, 108, 240);
+  border-color: rgb(81, 108, 240);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  contain-intrinsic-inline-size: 30px;
+  border-radius: 3px;
+  font-size: 11px;
+  width: 140px;
+  height: 25px;
+  background-color: rgb(254, 132, 2);
+}
+
+@media (max-width: 700px) {
+  .loginsection {
+  background-image: url("../login/bg-svg-f.svg");
+    flex-direction: column;
+    padding: 50px 50px;
+    background-color: white;
+    margin:0px ;
+  }
+
+  .logindiv1{
+    padding: 30px;
+  width: 100%;
+   height: 100%;
+   border-radius: 8px;
+margin: 0px;
+  }
+ 
+ .Aboutt .paragraph .button{
+    margin-top: 0px;
+  }
+
+.login-aboutTitle{
+  font-size:5vw ;
+}
+
+.Aboutt .paragraph p{
+  margin-bottom: 20px;
+}
+.Aboutt .p1{
+  margin-top: 20px;
+}
+  .Aboutt{
+    max-width: 100%;
+    padding-top: 50px;
+   width: 100%;
+   margin: 0px; 
+    margin-right:0px;
+  }
+
+}
